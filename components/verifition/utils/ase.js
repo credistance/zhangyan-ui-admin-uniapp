@@ -10,5 +10,6 @@ export function aesEncrypt(word, keyWord = "XwKsGlMcdPMEhR1B") {
 		mode: CryptoJS.mode.ECB,
 		padding: CryptoJS.pad.Pkcs7
 	});
+	
 	return encrypted.toString();
 }

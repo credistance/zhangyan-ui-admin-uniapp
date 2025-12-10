@@ -9,6 +9,7 @@ export const myRequest = (option = {}) => {
 			success: (result) => {
 				reslove(result)
 			},
+			
 			fail: (error) => {
 				reject(error)
 			}
